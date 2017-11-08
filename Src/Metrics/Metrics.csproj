@@ -2,6 +2,11 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <DefineConstants>LIBLOG_PORTABLE</DefineConstants>
+    <PackageId>Metrics.Net</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <PackageTags>metricsnet metrics netstandard aspdotnet</PackageTags>
   </PropertyGroup>
   <!--<PropertyGroup Condition="'$(TargetFramework)'=='portable40-net45+sl5+win8+wp8'">-->
   <!--<TargetFrameworkIdentifier>.NETPortable</TargetFrameworkIdentifier>-->

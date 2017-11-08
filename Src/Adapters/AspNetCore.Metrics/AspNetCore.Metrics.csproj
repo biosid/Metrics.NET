@@ -1,6 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <PackageId>AspNetCore.Metrics</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <PackageTags>metricsnet metrics aspnetcore netcore aspdotnet</PackageTags>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Metrics\Metrics.csproj">
