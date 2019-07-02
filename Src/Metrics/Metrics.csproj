@@ -2,6 +2,8 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <DefineConstants>LIBLOG_PORTABLE</DefineConstants>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Metrics-SoftPro-Fork</PackageId>
   </PropertyGroup>
   <!--<PropertyGroup Condition="'$(TargetFramework)'=='portable40-net45+sl5+win8+wp8'">-->
   <!--<TargetFrameworkIdentifier>.NETPortable</TargetFrameworkIdentifier>-->
